@@ -86,5 +86,21 @@ public class Calculadora {
 	 public double sacarPorcentaje() {
         return (x * y) / 100.0;
     }
+
+//Modificacion Leire 
+	public int RestaNumerosNegativos() {
+		
+		int resta=0; 
+		
+		if(y<x){
+			System.out.println(" 'y' es menor que 'x' , el resultado de la resta sera negativo");
+			resta=y-x; 
+
+		}else{
+			resta=x-y;
+		}
+		
+		return resta; 
+	}
 	
 }
